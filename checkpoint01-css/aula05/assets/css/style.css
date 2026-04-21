@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ol {
+  list-style: lower-roman;
+}
+
+ul {
+  list-style: url(../images/css-3\ \(1\).png);
+}
+
+ol,
+ul {
+  list-style: none;
+}
