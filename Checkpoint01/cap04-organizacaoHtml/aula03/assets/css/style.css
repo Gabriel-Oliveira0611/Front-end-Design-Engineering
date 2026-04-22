@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+div {
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  background-image: url(../images/pexels-alex-sever-89807754-28994474\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+p {
+  background-color: #900;
+}

@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+}
+
+div {
+  width: 50%;
+  height: 200px;
+  background-color: #ccc;
+  overflow: auto;
+}
