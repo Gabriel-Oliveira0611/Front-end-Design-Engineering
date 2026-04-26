@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p::first-line {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}
+
+p::selection {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}

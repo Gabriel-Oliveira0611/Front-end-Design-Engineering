@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+    width: 150px;
+    height: 70px;
+    border-radius: 7px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.box:has(p) {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    width: 400px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #10034b;
+    color: white;
+}
+
+.box::after {
+    content: "Minha aplicação web";
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
